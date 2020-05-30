@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Videos from "./components/Videos";
 import Twitch from "./components/Twitch";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 	  <Intro />
 	  <Videos />
 	  <Twitch />
+	  <Footer />
 	</div>
   );
 }

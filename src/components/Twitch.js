@@ -30,12 +30,15 @@ const styles = {
 	borderRadius: "20px",
 	textAlign: "center",
   },
+  padding: {
+	paddingBottom: "150px",
+  }
 };
 
 
 
 const Twitch = ({classes}) => (
-      <Container>
+      <Container className={classes.padding}>
 
         <header className={classes.sectionHeader}>
           <h3>Livestreams</h3>
