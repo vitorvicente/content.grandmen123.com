@@ -11,6 +11,7 @@ const styles = {
   sectionHeader: {
 	textAlign: "center",
 	position: "relative",
+	paddingBottom: "30px",
 	"& h3": {
 	  fontWeight: "500",
 	  fontSize: "36px",
@@ -18,7 +19,7 @@ const styles = {
 	},
   },
   sectionBg: {
-	paddingTop: "10px",
+	paddingTop: "30px",
 	paddingBottom: "10px",
 	background: "#ecf5ff",
   },
@@ -64,7 +65,7 @@ const styles = {
 
 const Videos = ({classes}) => (
   <div className={classes.series}>
-	<section className={classes.sectionBg}>>
+	<section className={classes.sectionBg}>
       <Container>
 
         <header className={classes.sectionHeader}>
@@ -81,8 +82,8 @@ const Videos = ({classes}) => (
           </Col>
           <Col>
             <div className={classes.box}>
-              <h4 className={classes.title}><a href="http://rlc.vtr.pt">RlCraft</a></h4>
-              <p className={classes.description}>RLCraft is a complete modpack that has one objective, to kill you, and we are left to survive the devastation of a realistic Minecraft experience!</p>
+              <h4 className={classes.title}><a href="http://maps.vtr.pt">Map Playthroughs</a></h4>
+              <p className={classes.description}>Every week we take on a brand new map, and playthrough all the challenges presented to us, whether that is parkour, PVE, puzzles or anything else!!</p>
             </div>
           </Col>
 

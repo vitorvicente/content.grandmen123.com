@@ -23,6 +23,7 @@ const styles = {
 	"& h4": {
 	  fontWeight: "600",
 	  fontSize: "24px",
+	  color: "#283d50",
 	},
   },
   imgFluid: {
